@@ -4,22 +4,25 @@ function Skills() {
   const skills = {
     Backend: ["C#", ".NET Core", "ASP.NET Web API", "Entity Framework", "LINQ"],
 
-    Cloud: [
-      "Azure Functions",
-      "Azure Service Bus",
-      "Azure API Management",
-      "Cosmos DB",
-      "Azure Storage",
-      "Application Insights",
+    "Azure & Cloud": [
+      "Azure App Service, Azure Functions",
+      "Azure API Management (APIM)",
+      "Azure Service Bus, Event Grid",
+      "Azure SQL, Cosmos DB",
+      "Azure Key Vault, Managed Identity",
+      "Azure Application Insights",
+      "Azure Redis Cache",
+      "Azure Storage (Blob)",
+      "Azure Logic Apps"
     ],
 
-    DevOps: ["Docker", "Kubernetes", "Azure DevOps", "CI/CD", "GitHub Actions"],
+    DevOps: ["Azure DevOps", "CI/CD", "GitHub Actions"],
 
-    Frontend: ["React", "JavaScript", "HTML5", "CSS3", "TypeScript"],
+    Frontend: ["React", "JavaScript", "HTML5", "CSS3"],
 
-    Databases: ["SQL Server", "Cosmos DB", "Azure SQL", "MongoDB"],
+    Databases: ["SQL Server", "Cosmos DB", "Azure SQL"],
 
-    Architecture: ["Microservices", "Event-Driven", "CQRS", "DDD"],
+    Architecture: ["RESTFul APIs", "Event-Driven", "Microservices", "Serverless", "Scalable Systems"],
   };
 
   return (

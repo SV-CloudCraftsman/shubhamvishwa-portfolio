@@ -18,12 +18,13 @@ function Footer() {
               <a href="https://github.com/SV-CloudCraftsman" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.linkedin.com/in/shubhamvishwa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="mailto:shubh21031998@gmail.com">Email</a>
+              <a href="https://www.youtube.com/@CloudYantra?sub_confirmation=1" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
           </div>
 
           <div className="footer-section">
             <h4>Tech Stack</h4>
-            <p>Azure • .NET Core • React • Microservices</p>
+            <p>Azure • .NET Core </p>
           </div>
         </div>
 

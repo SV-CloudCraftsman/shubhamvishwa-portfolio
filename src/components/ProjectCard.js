@@ -1,4 +1,5 @@
 import "./ProjectCard.css";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ project }) {
   return (
@@ -17,10 +18,10 @@ function ProjectCard({ project }) {
         ))}
       </div>
 
-      <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-        <span>View on GitHub</span>
+      <Link to={`/projects/${project.slug}`} className="project-link">
+        <span>View More Details</span>
         <span className="link-icon">→</span>
-      </a>
+      </Link>
     </div>
   );
 }

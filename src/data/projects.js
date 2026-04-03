@@ -1,15 +1,10 @@
 export const projects = [
-  {
-    title: "Azure Microservices E-Commerce",
-    description: "Microservices architecture using .NET and Service Bus",
-    tech: [".NET", "Azure Service Bus", "Cosmos DB"],
-    github: "https://github.com/username/project",
-  },
-
-  {
-    title: "Serverless Order Processing",
-    description: "Event-driven system using Azure Functions",
-    tech: ["Azure Functions", "Queue Storage", "Application Insights"],
-    github: "https://github.com/username/project2",
-  },
+    {
+    title: "SecureShop API – JWT Authentication & Authorization System",
+    slug: "secure-shop-jwt-auth",
+    description: "Production-ready ASP.NET Core Web API implementing secure JWT-based authentication, authorization, and API protection with Swagger integration.",
+    tech: ["ASP.NET Core Web API (.NET 8)", "C#", "Swagger", "JWT", "Azure App Services"],
+    github: "https://github.com/SV-CloudCraftsman/SecureShop.API.JwtAuthentication-Authorization",
+    component:"SecureShopProject"
+  }
 ];

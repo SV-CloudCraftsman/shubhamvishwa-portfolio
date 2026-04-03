@@ -7,6 +7,8 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import ProjectDetails from "./pages/ProjectDetails";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/:slug" element={<ProjectDetails />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<p>Page not found</p>} />
       </Routes>
 
       <Footer />

@@ -23,6 +23,9 @@ function Navbar() {
           <li className="navbar-item">
             <Link to="/projects" className="navbar-link">Projects</Link>
           </li>
+           <li className="navbar-item">
+            <Link to="/resume" className="navbar-link">Resume</Link>
+          </li>
           <li className="navbar-item">
             <Link to="/contact" className="navbar-link navbar-link-cta">Contact</Link>
           </li>

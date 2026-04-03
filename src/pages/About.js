@@ -13,7 +13,7 @@ function About() {
           <div className="about-text">
             <h2>Software Engineer & Azure Architect</h2>
             <p>
-              I'm a passionate software engineer with 6+ years of experience designing and implementing robust, scalable cloud solutions on Microsoft Azure. My expertise spans the full application lifecycle—from microservices architecture and API design to DevOps practices.
+              I'm a passionate software engineer with 6.5+ years of experience designing and implementing robust, scalable cloud solutions on Microsoft Azure. My expertise spans the full application lifecycle—from microservices architecture and API design to DevOps practices.
             </p>
 
             <p>
@@ -22,10 +22,11 @@ function About() {
 
             <h3>Core Expertise</h3>
             <ul className="expertise-list">
-              <li>Cloud Architecture & Migration</li>
+              <li>Scalable Cloud Solution Architecture </li>
               <li>Microservices & Distributed Systems</li>
-              <li>Azure Ecosystem (Functions, Service Bus, Cosmos DB)</li>
-              <li>DevOps & Container Orchestration</li>
+              <li>Azure Ecosystem (App Services, Functions, Service Bus)</li>
+              <li>API Design & Development</li>
+              <li>Performance Optimization</li>
               <li>Full Stack Development</li>
             </ul>
           </div>
@@ -41,7 +42,7 @@ function About() {
             </div>
             <div className="highlight-card">
               <h3>DevOps</h3>
-              <p>Automating deployments and infrastructure</p>
+              <p>Automating deployments</p>
             </div>
             <div className="highlight-card">
               <h3>Mentoring</h3>
